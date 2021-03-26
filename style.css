@@ -20,7 +20,7 @@ h1 {
   font-size: 55px;
   color: rgb(163, 10, 130);
   max-height: 100px;
-  padding-top: 100px;
+  padding-top: 120px;
   padding-left: 20px;
 
 
@@ -42,6 +42,15 @@ h2{
   margin: auto;
 }
 
+img 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 300px;
+  
+}
 
 .navbar {
   position: fixed;
@@ -75,3 +84,36 @@ h2{
   
 }
 
+.card-container{
+  background-color:rgb(214, 115, 193);
+  display: flex;
+  justify-content: space-around;
+  /*align-items: center;*/
+  padding-top: 120px;
+  height: 1000px;
+  flex-direction: column;
+
+}
+
+.card{
+  min-height: 200px;
+  min-width: 150px;
+  background-color: whitesmoke;
+
+}
+
+/*.card-1{
+
+}
+
+.card-2{
+  
+}
+
+.card-3{
+  
+}
+
+.card-4{
+  
+}*/
