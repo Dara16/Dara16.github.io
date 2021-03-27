@@ -5,10 +5,10 @@ document.querySelector('body').appendChild(h2)
 
 
 const about = document.getElementsByClassName("card card-1");
-function scrollToTop() {
+function scrollToBottom() {
     elmnt.scrollIntoView(true);
 
 }
-about.addEventListener('click', scrollToTop)
+about.addEventListener('click', scrollToBottom)
     
 
