@@ -16,7 +16,6 @@
 
 h2 {
   font-family: 'OCR A Std', monospace;
-  font-size: 40px;
   color: white;
   text-align: center;
   padding-bottom: 20px;
@@ -31,7 +30,7 @@ h3 {
 
 .navbar {
   position: fixed;
-  height: 100px;
+  height: 60px;
   background: linear-gradient( rgb(0, 0, 0, .7), rgba(0, 0, 0, 1));
   width: 100%;
   z-index: 3;
@@ -47,8 +46,7 @@ h3 {
 .navbar .menu li{
   list-style: none;
   display: inline-block;
-  padding: 30px;
-  margin-top: 0%;
+  padding: 20px;
   transition: transform .2s;
 }
 
@@ -58,22 +56,22 @@ h3 {
 
 .navbar .menu li a{
   color: rgb(174, 240, 135);
-  font-size: 23px;
-  font-weight: 400;
-  margin-left: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 25px;
   text-decoration: none;
   font-family: 'OCR A Std', monospace;
 }
 
 .heading {
   color: rgb(174, 240, 135);
-  font-size: 62px;
+  font-size: 40px;
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 65%;
   transform: translateX(-50%);
   font-family: 'OCR A Std', monospace;
-  letter-spacing: 7px;
+  letter-spacing: 5px;
   text-align: left;
   white-space: pre-wrap;
 }
@@ -81,7 +79,7 @@ h3 {
 .heading::after {
   content: '';
   width: 5px;
-  height: 62px;
+  height: 55px;
   background-color: rgb(107, 233, 75);
   position: absolute;
   animation: blinking 1s 3s infinite;
@@ -117,16 +115,15 @@ object-position: center;
   display: flex;
   justify-content: space-evenly;
   position: relative;
-  padding-top: 2%;
-  padding-bottom: 150px;
-  top: 40px;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  top: 35%;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .card {
-  width: 400px;
-  min-height: 650px;
+  width: 280px;
   background-color: rgb(161, 159, 159);
   display: flex;
   flex-direction: column;
@@ -135,25 +132,25 @@ object-position: center;
 }
 
 .profile-image {
-  width: 180px;
-  height: 180px;
+  width: 120px;
+  height: 120px;
   object-fit: cover;
   border-radius: 50%;
   margin-top: 0px;
   z-index: 10;
-  border: 15px solid #eee;
+  border: 10px solid #eee;
 }
 
 .card h1 {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 35px;
+  font-size: 22px;
   color: #333;
   margin-top: 10px;
 }
 
 .card h2 {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   color: rgb(241, 93, 25);
   text-align: center;
   padding: 20px;
@@ -164,12 +161,12 @@ object-position: center;
   font-family: 'Montserrat', sans-serif;
   color: rgb(29, 29, 29);
   font-weight: 300;
-  font-size: 20px;
+  font-size: 12px;
 }
 
 .about-me {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 23px;
+  font-size: 14px;
   width: 90%;
   margin: 15px 0;
   font-style: italic;
@@ -181,7 +178,7 @@ object-position: center;
   font-family: 'Josefin Sans', sans-serif;
   color: #333;
   list-style: none;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .skills li {
@@ -189,7 +186,6 @@ object-position: center;
 }
 
 .projects li {
-  font-size: 25px;
   margin: 15px 0;
 }
 
@@ -235,7 +231,6 @@ object-position: center;
   padding-top: 15px;
   padding-left: 0%;
   color: rgb(241, 93, 25);
-  font-size: 30px;
   font-weight: 300;
 }
 
@@ -257,7 +252,6 @@ object-position: center;
 
 .social-icons p{
   color: rgb(94, 53, 161);
-  font-size: 20px;
   font-family: 'ubuntu', sans-serif;
   padding: 25px;
 }
