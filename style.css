@@ -10,8 +10,6 @@
 .container {
   width: 100%;
   height: 100%;
-  background: rgb(27, 78, 31);
-  background-size: cover;
 }
 
 h2 {
@@ -80,7 +78,7 @@ h3 {
   content: '';
   width: 5px;
   height: 55px;
-  background-color: rgb(107, 233, 75);
+  background-color: black;
   position: absolute;
   animation: blinking 1s 3s infinite;
 }
@@ -124,7 +122,7 @@ object-position: center;
 
 .card {
   width: 280px;
-  background-color: rgb(161, 159, 159);
+  background-color: #c4c2c1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -151,7 +149,7 @@ object-position: center;
 .card h2 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
-  color: rgb(241, 93, 25);
+  color: #FFCF79;
   text-align: center;
   padding: 20px;
   text-shadow: 5px 5px 20px rgba(0, 0, 0, .7);
@@ -230,7 +228,7 @@ object-position: center;
 .footer h3{
   padding-top: 15px;
   padding-left: 0%;
-  color: rgb(241, 93, 25);
+  color: #FFCF79;
   font-weight: 300;
 }
 
@@ -299,6 +297,11 @@ object-position: center;
 }
 
 @media(max-width: 700px) {
+  .navbar{
+    font-size: 20px;
+    white-space: pre-wrap;
+  }
+  
   .heading {
       font-size: 50px;
   }
@@ -306,19 +309,32 @@ object-position: center;
   .heading::after {
       height: 40px;
   }
+
+  .background video{
+    display: none;
+  }
 }
 
 @media(max-width: 450px) {
+  .navbar{
+    font-size: 20px;
+    white-space: pre-wrap;
+  }
+
   .heading {
-      font-size: 40px;
+      font-size: 30px;
   }
 
   .heading::after {
       height: 33px;
   }
 
+  .background video{
+    display: none;
+  }
+
   .cards-wrapper {
-      padding: 250px 0 150px 0;
+      padding: 150px 0 150px 0;
   }
 }
 
