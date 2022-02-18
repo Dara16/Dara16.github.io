@@ -149,10 +149,10 @@ object-position: center;
 .card h2 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
-  color: #FFCF79;
+  color: rgb(174, 240, 135);
   text-align: center;
   padding: 20px;
-  text-shadow: 5px 5px 20px rgba(0, 0, 0, .7);
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, .7);
 }
 
 .job {
@@ -185,6 +185,11 @@ object-position: center;
 
 .projects li {
   margin: 15px 0;
+  text-decoration: none;
+}
+
+.projects li a {
+  text-decoration: none;
 }
 
 .footer:hover h3{
@@ -228,7 +233,7 @@ object-position: center;
 .footer h3{
   padding-top: 15px;
   padding-left: 0%;
-  color: #FFCF79;
+  color: rgb(174, 240, 135);
   font-weight: 300;
 }
 
@@ -249,7 +254,7 @@ object-position: center;
 }
 
 .social-icons p{
-  color: rgb(94, 53, 161);
+  color: rgb(150, 146, 146);
   font-family: 'ubuntu', sans-serif;
   padding: 25px;
 }
@@ -260,6 +265,13 @@ object-position: center;
 
 .fa-github {
   color: #5f5e5e;
+}
+
+.footer h6{
+  font-family: 'OCR A Std', monospace;
+  padding-top: 20px;
+  color: rgb(174, 240, 135);
+  font-weight: 300;
 }
 
 @media(max-width: 1300px) {
