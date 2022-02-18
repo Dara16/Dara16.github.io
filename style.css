@@ -272,6 +272,7 @@ object-position: center;
   padding-top: 20px;
   color: rgb(174, 240, 135);
   font-weight: 300;
+  position: relative;bottom: 5px;
 }
 
 @media(max-width: 1300px) {
