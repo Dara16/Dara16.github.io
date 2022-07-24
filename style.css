@@ -368,14 +368,17 @@ object-position: center;
 }
 
 @media(max-width: 700px) {
-  .navbar{
-    font-size: 20px;
-    white-space: pre-wrap;
+  .navbar li:not(:first-child) {display: none;}
+  .navbar .icon {
+    float: left;
+    display: block;
+    left: 0%;
   }
   
   .heading {
       font-size: 2.5rem;
-      width: 50%;
+      width: 80%;
+      left: 50%;
   }
 
 
@@ -385,16 +388,18 @@ object-position: center;
   }
 }
 
-@media(max-width: 450px) {
-  .navbar{
-    font-size: 0.5rem;
-    width: 100vw;
-    object-fit: contain;
+@media(max-width: 600px) {
+  .navbar li:not(:first-child) {display: none;}
+  .navbar .icon {
+    float: left;
+    display: block;
+    left: 0%;
   }
 
   .heading {
     font-size: 1.5rem;
-    left: 0%;
+    left: 50%;
+    width: 90%;
   }
 
   .heading::after {
