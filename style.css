@@ -75,12 +75,12 @@ h3 {
 
 .heading {
   color: rgb(174, 240, 135);
-  font-size: 40px;
+  font-size: 2.5rem;
   position: absolute;
   top: 35%;
   left: 65%;
   transform: translateX(-50%);
-  font-family: 'OCR A Std', monospace;
+  font-family: 'Trebuchet MS', sans-serif;
   letter-spacing: 5px;
   text-align: left;
   white-space: pre-wrap;
@@ -160,8 +160,9 @@ object-position: center;
 }
 
 .card {
-  width: 280px;
-  background-image: url('media/antique_background.jpg');
+  width: 320px;
+  
+  background-color: rgb(226, 245, 210);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -188,7 +189,7 @@ object-position: center;
 .card h2 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 22px;
-  color: rgb(174, 240, 135);
+  color: rgb(76, 175, 19);
   text-align: center;
   padding: 20px;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, .7);
@@ -317,8 +318,8 @@ object-position: center;
 
 @media(max-width: 1300px) {
   .heading {
-      font-size: 65px;
-      width: 80%;
+      font-size: 2.5rem;
+      width: 50%;
   }
 
   .cards-wrapper {
@@ -336,7 +337,8 @@ object-position: center;
       height: 100%;
   }
   .heading {
-      width: 90%;
+      font-size: 2.5rem;
+      width: 50%;
   }
 
   .cards-wrapper {
@@ -349,6 +351,22 @@ object-position: center;
   }
 }
 
+@media(max-width: 800px) {
+  .container {
+    height: 100%;
+}
+  .heading {
+    font-size: 2.5rem;
+    width: 50%;
+}
+  .cards-wrapper {
+      padding: 300px 0 200px 0;
+  }
+  .card {
+      margin: 0 30px 50px 30px;
+  }
+}
+
 @media(max-width: 700px) {
   .navbar{
     font-size: 20px;
@@ -356,12 +374,11 @@ object-position: center;
   }
   
   .heading {
-      font-size: 50px;
+      font-size: 2.5rem;
+      width: 50%;
   }
 
-  .heading::after {
-      height: 40px;
-  }
+
 
   .background video{
     display: none;
@@ -370,12 +387,14 @@ object-position: center;
 
 @media(max-width: 450px) {
   .navbar{
-    font-size: 20px;
-    white-space: pre-wrap;
+    font-size: 0.5rem;
+    width: 100vw;
+    object-fit: contain;
   }
 
   .heading {
-      font-size: 30px;
+    font-size: 1.5rem;
+    left: 0%;
   }
 
   .heading::after {
@@ -384,6 +403,10 @@ object-position: center;
 
   .background video{
     display: none;
+  }
+
+  .details {
+    font-size: 20px;
   }
 
   .cards-wrapper {
