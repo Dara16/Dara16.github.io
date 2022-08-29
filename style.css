@@ -75,7 +75,7 @@ h3 {
 
 .heading {
   color: rgb(174, 240, 135);
-  font-size: 2.5rem;
+  font-size: 3.0rem;
   position: absolute;
   top: 35%;
   left: 65%;
@@ -144,7 +144,7 @@ object-position: center;
 }
 
 .details h2 {
-  font-size: 27px;
+  font-size: 2rem;
 }
 
 .cards-wrapper {
@@ -261,14 +261,14 @@ object-position: center;
 }
 
 .footer{
-  height: 25vh;
+  height: auto;
   background: linear-gradient(rgba(2, 2, 2, .8),rgba(2, 2, 2, 1));
   place-items: center;
   display: flex;
   flex-direction: column;
   border-top: 2px solid #999; 
   z-index: 5;
-  position: relative;bottom: 0px; 
+  position: relative; bottom: 0px; 
 }
 
 .footer h3{
@@ -313,7 +313,7 @@ object-position: center;
   padding-top: 20px;
   color: rgb(174, 240, 135);
   font-weight: 300;
-  position: relative;bottom: 0px;
+  position: relative;bottom: 8px;
 }
 
 @media(max-width: 1300px) {
